@@ -15,8 +15,9 @@ A web-based expense tracker application to manage income and expenses efficientl
 - Dark theme UI
 - Data persistence using localStorage
 
-## Screenshot
-![Expense Tracker Screenshot](assets/homepage.png)
+##📸 Screenshot
+###🏠 Home Page
+![Home Page](assets/homepage.png)
 
 
 ## 🛠️ Tech Stack
