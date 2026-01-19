@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* 🌑 Dark background */
+body {
+    min-height: 100vh;
+    background: #0d0d0d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eaeaea;
+}
+
+/* 🖤 Main card */
+.container {
+    width: 370px;
+    background: #141414;
+    border-radius: 14px;
+    padding: 25px;
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.05),
+                0 20px 40px rgba(0,0,0,0.8);
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+/* Balance */
+.balance {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.balance h2 {
+    font-size: 2.1rem;
+    margin-top: 5px;
+}
+
+/* Summary boxes */
+.summary {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.summary div {
+    width: 48%;
+    padding: 12px;
+    border-radius: 10px;
+    background: #1c1c1c;
+}
+
+/* Income / Expense */
+.money.plus {
+    color: #00e676;
+    font-weight: 600;
+}
+
+.money.minus {
+    color: #ff5252;
+    font-weight: 600;
+}
+
+/* Section headings */
+h3 {
+    margin: 18px 0 8px;
+    font-weight: 500;
+}
+
+/* History */
+.list {
+    list-style: none;
+}
+
+.list li {
+    background: #1c1c1c;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 4px solid;
+}
+
+.list li.plus {
+    border-color: #00e676;
+}
+
+.list li.minus {
+    border-color: #ff5252;
+}
+
+/* Delete */
+.delete-btn {
+    background: #ff5252;
+    border: none;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+/* Form */
+.form-control {
+    margin: 10px 0;
+}
+
+.form-control label {
+    font-size: 0.85rem;
+    color: #bdbdbd;
+}
+
+.form-control input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background: #262626;
+    color: #fff;
+}
+
+/* Button */
+.btn {
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    background: #00e676;
+    color: #000;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: #00c853;
+}
