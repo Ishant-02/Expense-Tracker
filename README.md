@@ -17,7 +17,7 @@ A web-based expense tracker application to manage income and expenses efficientl
 
 ##📸 Screenshot
 ###🏠 Home Page
-![Home Page](assets/homepage.png)
+![Home Page](homepage.png)
 
 
 ## 🛠️ Tech Stack
